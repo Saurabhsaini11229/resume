@@ -1,0 +1,113 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Container styles */
+.box {
+    width: 100%;
+    height: 10px; /* Adjust height as needed */
+    background-color: #007bff; /* Example color */
+    margin-bottom: 20px;
+}
+
+/* Header styles */
+#header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#header hr {
+    width: 50%;
+    margin: 0 auto;
+    border-color: #007bff; /* Example color */
+}
+
+/* Main section styles */
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mainLeft {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#mainRight {
+    flex: 2;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    color: #007bff; /* Example color */
+    margin-bottom: 10px;
+}
+
+section a {
+    color: #007bff; /* Example color */
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Article styles */
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+article h4 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+article h5 {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    #mainLeft {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
